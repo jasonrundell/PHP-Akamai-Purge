@@ -12,6 +12,7 @@
         pap_purge() function was started from the code hradtke@php.net provided publicly.
         Jan 9, 2012 - I did some digging and I believe we have https://github.com/hradtke
         to thank! How many hradtke could there be, right? :)
+        Jan 9, 2012 - Emailed hradtke and it's confirmed. Thanks Herman Radtke!
 
     Server requirements:
         SOAP for PHP: http://php.net/manual/en/book.soap.php
