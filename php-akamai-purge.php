@@ -6,7 +6,7 @@
     By: Jason Rundell <jason dot rundell (at) gmail dot com> http://jasonrundell.com @jasonrundell
     Started: December 20th 2011
     Fork me: https://github.com/jasonrundell/PHP-Akamai-Purge
-    Cudos: https://github.com/hradtke
+    Cudos: https://github.com/hradtke http://hermanradtke.com @hermanradtke
         I came across https://bugs.php.net/bug.php?id=43910 while doing a Google search for
         other folks who have worked with Akamai's SOAP API and PHP. The original function
         pap_purge() function was started from the code hradtke@php.net provided publicly.
