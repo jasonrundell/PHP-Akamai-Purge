@@ -36,7 +36,7 @@ function pap_akamai_purge($url){ // 'pap' stands for Php Akamai Purge
 
     try {
 
-        $purgeResult = $client->purgeRequest(AKAMAI_USER, AKAMAI_PASSWORD, '', array(), array($url));
+        $purgeResult = $client->purgeRequest(AKAMAI_USER, AKAMAI_PASSWORD, '', $options, array($url));
         // once you have $purgeResult, you can handle the results any way you'd prefer.
 
         // the following lines are just a suggestion
