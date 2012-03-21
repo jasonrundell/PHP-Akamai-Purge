@@ -13,6 +13,8 @@
         Jan 9, 2012 - I did some digging and I believe we have https://github.com/hradtke
         to thank! How many hradtke could there be, right? :)
         Jan 9, 2012 - Emailed hradtke and it's confirmed. Thanks Herman Radtke!
+		Jan 10, 2012 - Dustin Hood @dustinhood tweeted me with Akamai documentation
+		and later in emails provided the method for getting email notifications.
 
     Server requirements:
         SOAP for PHP: http://php.net/manual/en/book.soap.php
@@ -26,9 +28,11 @@ define("AKAMAI_USER","your_akamai_account_email");
 define("AKAMAI_PASSWORD","your_akamai_account_password");
 // end of suggested constants
 
-function pap_purge($url){ // 'pap' stands for Php Akamai Purge
+function pap_akamai_purge($url){ // 'pap' stands for Php Akamai Purge
 
     $client = new SoapClient('https://ccuapi.akamai.com/ccuapi-axis.wsdl'); // xml schema Akamai uses for purging
+	
+	$options = array('action=invalidate','email-notification='.$email,'domain=production','type=arl'); // email notification is optional. Thanks @dustinhood for the array options.
 
     try {
 
