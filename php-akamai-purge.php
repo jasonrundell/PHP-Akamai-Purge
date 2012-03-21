@@ -23,7 +23,7 @@
 **************************/
 
 // the following two named constants are developer preference. I enjoy them :)
-// you can of course add in user and password properties to the pap_purge() function.
+// you can of course add in user and password properties to the pap_akamai_purge() function.
 define("AKAMAI_USER","your_akamai_account_email");
 define("AKAMAI_PASSWORD","your_akamai_account_password");
 // end of suggested constants

@@ -3,17 +3,16 @@ PHP Akamai Purge
 By: Jason Rundell <jason dot rundell (at) gmail dot com> http://jasonrundell.com @jasonrundell
 Started: December 20th 2011
 Fork me: https://github.com/jasonrundell/PHP-Akamai-Purge
-Cudos: https://github.com/hradtke http://hermanradtke.com @hermanradtke
+Cudos: https://github.com/hradtke http://hermanradtke.com @hermanradtke, Dustin Hood @dustinhood
 
-    I came across https://bugs.php.net/bug.php?id=43910 while doing a Google search for
-	other folks who have worked with Akamai's SOAP API and PHP. The original function
-	pap_purge() function was started from the code hradtke@php.net provided publicly.
-	Jan 9, 2012 - I did some digging and I believe we have https://github.com/hradtke
-	to thank! How many hradtke could there be, right? :)
-	Jan 9, 2012 - Emailed hradtke and it's confirmed. Thanks Herman Radtke!
-	Jan 10, 2012 - Dustin Hood @dustinhood tweeted me with Akamai documentation
-	and later in emails provided the method for getting email notifications.
+I came across https://bugs.php.net/bug.php?id=43910 while doing a Google search for other folks who have worked with Akamai's SOAP API and PHP. The original function pap_akamai_purge() function was started from the code hradtke@php.net provided publicly.
+
+Jan 9, 2012 - I did some digging and I believe we have https://github.com/hradtke to thank! How many hradtke could there be, right? :)
+
+Jan 9, 2012 - Emailed hradtke and it's confirmed. Thanks Herman Radtke!
+
+Jan 10, 2012 - Dustin Hood @dustinhood tweeted me with Akamai documentation and later in emails provided the method for getting email notifications.
 
 Server requirements:
-    SOAP for PHP: http://php.net/manual/en/book.soap.php
-    PHP: Version 5.X
+SOAP for PHP: http://php.net/manual/en/book.soap.php
+PHP: Version 5.X
